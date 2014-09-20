@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE4249F719CAAF67002A7135 /* CircleProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4249F619CAAF67002A7135 /* CircleProgress.m */; };
 		AEB2483519AC206A00A56844 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB2483419AC206A00A56844 /* Foundation.framework */; };
 		AEB2483719AC206A00A56844 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB2483619AC206A00A56844 /* CoreGraphics.framework */; };
 		AEB2483919AC206A00A56844 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB2483819AC206A00A56844 /* UIKit.framework */; };
 		AEB2483F19AC206A00A56844 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEB2483D19AC206A00A56844 /* InfoPlist.strings */; };
 		AEB2484119AC206A00A56844 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB2484019AC206A00A56844 /* main.m */; };
 		AEB2484519AC206A00A56844 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB2484419AC206A00A56844 /* AppDelegate.m */; };
-		AEB2484819AC206A00A56844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB2484619AC206A00A56844 /* Main.storyboard */; };
 		AEB2484B19AC206A00A56844 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB2484A19AC206A00A56844 /* ViewController.m */; };
 		AEB2484D19AC206A00A56844 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB2484C19AC206A00A56844 /* Images.xcassets */; };
 		AEB2485419AC206A00A56844 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB2485319AC206A00A56844 /* XCTest.framework */; };
@@ -21,6 +21,10 @@
 		AEB2485619AC206A00A56844 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB2483819AC206A00A56844 /* UIKit.framework */; };
 		AEB2485E19AC206A00A56844 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEB2485C19AC206A00A56844 /* InfoPlist.strings */; };
 		AEB2486019AC206A00A56844 /* ColorRingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB2485F19AC206A00A56844 /* ColorRingTests.m */; };
+		AEB2486B19AC208100A56844 /* SingleColorRing.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB2486A19AC208100A56844 /* SingleColorRing.m */; };
+		AEB2487519AC7CA700A56844 /* RGBMultiColorRing.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB2487419AC7CA700A56844 /* RGBMultiColorRing.m */; };
+		AEB2487819AC9A4100A56844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB2487719AC9A4100A56844 /* Main.storyboard */; };
+		AEB2487B19ACA89800A56844 /* HSLMultiColorRing.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB2487A19ACA89800A56844 /* HSLMultiColorRing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE4249F519CAAF67002A7135 /* CircleProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgress.h; sourceTree = "<group>"; };
+		AE4249F619CAAF67002A7135 /* CircleProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgress.m; sourceTree = "<group>"; };
 		AEB2483119AC206A00A56844 /* ColorRing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorRing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB2483419AC206A00A56844 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AEB2483619AC206A00A56844 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +50,6 @@
 		AEB2484219AC206A00A56844 /* ColorRing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorRing-Prefix.pch"; sourceTree = "<group>"; };
 		AEB2484319AC206A00A56844 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEB2484419AC206A00A56844 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AEB2484719AC206A00A56844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEB2484919AC206A00A56844 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AEB2484A19AC206A00A56844 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AEB2484C19AC206A00A56844 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +58,13 @@
 		AEB2485B19AC206A00A56844 /* ColorRingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorRingTests-Info.plist"; sourceTree = "<group>"; };
 		AEB2485D19AC206A00A56844 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AEB2485F19AC206A00A56844 /* ColorRingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorRingTests.m; sourceTree = "<group>"; };
+		AEB2486919AC208100A56844 /* SingleColorRing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleColorRing.h; sourceTree = "<group>"; };
+		AEB2486A19AC208100A56844 /* SingleColorRing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleColorRing.m; sourceTree = "<group>"; };
+		AEB2487319AC7CA700A56844 /* RGBMultiColorRing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBMultiColorRing.h; sourceTree = "<group>"; };
+		AEB2487419AC7CA700A56844 /* RGBMultiColorRing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBMultiColorRing.m; sourceTree = "<group>"; };
+		AEB2487719AC9A4100A56844 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AEB2487919ACA89800A56844 /* HSLMultiColorRing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSLMultiColorRing.h; sourceTree = "<group>"; };
+		AEB2487A19ACA89800A56844 /* HSLMultiColorRing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSLMultiColorRing.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +126,17 @@
 			children = (
 				AEB2484319AC206A00A56844 /* AppDelegate.h */,
 				AEB2484419AC206A00A56844 /* AppDelegate.m */,
-				AEB2484619AC206A00A56844 /* Main.storyboard */,
+				AEB2487719AC9A4100A56844 /* Main.storyboard */,
 				AEB2484919AC206A00A56844 /* ViewController.h */,
 				AEB2484A19AC206A00A56844 /* ViewController.m */,
+				AE4249F519CAAF67002A7135 /* CircleProgress.h */,
+				AE4249F619CAAF67002A7135 /* CircleProgress.m */,
+				AEB2486919AC208100A56844 /* SingleColorRing.h */,
+				AEB2486A19AC208100A56844 /* SingleColorRing.m */,
+				AEB2487319AC7CA700A56844 /* RGBMultiColorRing.h */,
+				AEB2487419AC7CA700A56844 /* RGBMultiColorRing.m */,
+				AEB2487919ACA89800A56844 /* HSLMultiColorRing.h */,
+				AEB2487A19ACA89800A56844 /* HSLMultiColorRing.m */,
 				AEB2484C19AC206A00A56844 /* Images.xcassets */,
 				AEB2483B19AC206A00A56844 /* Supporting Files */,
 			);
@@ -228,9 +248,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEB2487819AC9A4100A56844 /* Main.storyboard in Resources */,
 				AEB2484D19AC206A00A56844 /* Images.xcassets in Resources */,
 				AEB2483F19AC206A00A56844 /* InfoPlist.strings in Resources */,
-				AEB2484819AC206A00A56844 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEB2484B19AC206A00A56844 /* ViewController.m in Sources */,
+				AEB2486B19AC208100A56844 /* SingleColorRing.m in Sources */,
+				AEB2487B19ACA89800A56844 /* HSLMultiColorRing.m in Sources */,
+				AEB2487519AC7CA700A56844 /* RGBMultiColorRing.m in Sources */,
 				AEB2484519AC206A00A56844 /* AppDelegate.m in Sources */,
+				AE4249F719CAAF67002A7135 /* CircleProgress.m in Sources */,
 				AEB2484119AC206A00A56844 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,14 +304,6 @@
 				AEB2483E19AC206A00A56844 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		AEB2484619AC206A00A56844 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AEB2484719AC206A00A56844 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		AEB2485C19AC206A00A56844 /* InfoPlist.strings */ = {
@@ -381,7 +397,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorRing/ColorRing-Prefix.pch";
 				INFOPLIST_FILE = "ColorRing/ColorRing-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -394,7 +412,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorRing/ColorRing-Prefix.pch";
 				INFOPLIST_FILE = "ColorRing/ColorRing-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +480,7 @@
 				AEB2486519AC206A00A56844 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEB2486619AC206A00A56844 /* Build configuration list for PBXNativeTarget "ColorRingTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +489,7 @@
 				AEB2486819AC206A00A56844 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
